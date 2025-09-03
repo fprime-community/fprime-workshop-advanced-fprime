@@ -1,6 +1,6 @@
 # Lesson: F Prime Communication Integration
 
-In this exercise, you will integrate an **XBee 3 radio** into your F´ deployment. The goal is to implement a component (or set of components) that adapt the XBee radio for use with F´’s **[Communication Interface]([https://nasa.github.io/fprime/UsersGuide/guide/com-interface.html](https://fprime.jpl.nasa.gov/latest/docs/reference/communication-adapter-interface/))**.
+In this exercise, you will integrate an **XBee 3 radio** into your F´ deployment. The goal is to implement a component (or set of components) that adapt the XBee radio for use with F´’s **[Communication Interface](https://fprime.jpl.nasa.gov/latest/docs/reference/communication-adapter-interface/))**.
 
 The XBee radio provides a UART interface: data written to its UART port is transmitted over the radio, and data received over the radio is made available through UART.
 
