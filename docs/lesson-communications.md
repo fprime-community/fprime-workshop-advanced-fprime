@@ -1,7 +1,3 @@
-Got it — here’s the same guide with a simple **Mermaid block diagram** added to illustrate the data flow at a high level:
-
----
-
 # Lesson: F Prime Communication Integration
 
 In this exercise, you will integrate an **XBee 3 radio** into your F´ deployment. The goal is to implement a component (or set of components) that adapt the XBee radio for use with F´’s **[Communication Interface]([https://nasa.github.io/fprime/UsersGuide/guide/com-interface.html](https://fprime.jpl.nasa.gov/latest/docs/reference/communication-adapter-interface/))**.
@@ -33,7 +29,7 @@ You should do the following
 
 3. **Connect to the Communication Stack**
    * Instantiate the XBee component in the topology
-   * Switch to `FramingFprime` or `FramingCcsds` suptopologies
+   * Select an appropriate subtopology for the communication stack
    * Attach your XBee component to your choice of framing F´ stack in the topology
     
 
@@ -68,6 +64,12 @@ flowchart LR
 The reference implementation for this lesson is under development.
 When it is ready, it will be linked here:
 
-> \[!NOTE]
+> [!NOTE]
 > **Reference Code Placeholder**
 > A link to the reference solution will be provided once available.
+
+TODOs:
+1. add links to other helpful focumentation
+2. Subtopology guide
+3. Framining subtopology documentation
+
