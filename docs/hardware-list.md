@@ -16,7 +16,8 @@ If you are following the **Advanced F´ Workshop** remotely, you’ll need to su
   Must be configured with **firmware for point-to-point mode** before use.
   XBee 3 is available through [Digi-Key](https://www.digikey.com/en/products/detail/digi/XB3-24Z8PT/8130937) and other vendors.
 
----
+> [!IMPORTANT]
+> Ensure you have the necessary cables and adapters to connect power and data for each device.
 
 > [!TIP]
 > These are the components used in the official workshop. Equivalent hardware may also work, but you may need to adjust wiring, drivers, or F´ component code.
