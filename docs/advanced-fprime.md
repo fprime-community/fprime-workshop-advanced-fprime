@@ -9,6 +9,27 @@ This is an **advanced workshop**, intended for developers who are already comfor
 
 Most importantly, you should be confident working through standard F´ development tasks on your own. If you are still learning the basics, we recommend finishing the introductory workshop before continuing here.
 
+## Workshop Format
+
+This workshop is organized as a series of **hands-on exercises**, each focused on teaching an advanced design pattern or capability in F´.
+
+> [!IMPORTANT]
+> This workshop is typically delivered **in person**, where hardware is provided to all attendees.
+> If you are following along remotely, please refer to the [hardware list](hardware-list.md) for guidance on what you’ll need to supply yourself. **Remote** users can still complete all exercises on their own hardware.
+
+* You are encouraged to **self-select** which exercises you want to complete.
+* All necessary **hardware is provided** during in-person sessions.
+* **Instructors are available** throughout to answer questions, provide hints, or help debug issues.
+* If you have questions after the workshop or while working on your own, you can post them on the [F´ GitHub Discussions page](https://github.com/nasa/fprime/discussions).
+* Each exercise links to the **relevant documentation** so you can dive deeper into the concepts at your own pace.
+
+> [!TIP]
+> Teams may choose to tackle multiple lessons in parallel. This can be an efficient way to explore different patterns quickly and share knowledge within your group.
+
+---
+
+Would you like me to also include a short sentence in the note clarifying that **remote users can still complete all exercises with their own hardware**, just so it doesn’t sound limiting?
+
 
 ## Project Setup
 
