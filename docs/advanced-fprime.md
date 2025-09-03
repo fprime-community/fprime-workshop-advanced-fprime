@@ -1,3 +1,14 @@
+## Prerequisites
+
+This is an **advanced workshop**, intended for developers who are already comfortable with the fundamentals of F´. Before attending, you should have:
+
+* A working knowledge of the F´ modeling language (**FPP**) and how it maps to component implementations.
+* Experience building and extending **components** and integrating them into **topologies**.
+* Completed the [LED Blinker tutorial](https://github.com/fprime-community/fprime-workshop-led-blinker/blob/devel/docs/led-blinker.md) **without needing to copy/paste**, and understood the purpose of each step.
+* Familiarity with **C++** as used to implement flight components.
+
+Most importantly, you should be confident working through standard F´ development tasks on your own. If you are still learning the basics, we recommend finishing the introductory workshop before continuing here.
+
 
 ## Project Setup
 
