@@ -69,7 +69,7 @@ This sets up your environment with the `LedBlinker` component as a starting poin
 Throughout this workshop, you’ll extend and enhance this implementation with more advanced F´ concepts.
 
 > [!IMPORTANT]
-> Remember to source the virtual environemnt `. fprime-venv/bin/activate` before running commands in this tutorial.
+> Remember to source the virtual environment `. fprime-venv/bin/activate` before running commands in this tutorial.
 
 Next, generate and build the cloned project to make sure the base is working correctly:
 
@@ -98,6 +98,9 @@ If the build completes without errors, you are ready to begin.
 ## Lessons
 
 This workshop is organized as a set of lessons. Each lesson introduces an advanced F´ pattern or concept, with exercises and optional extensions.
+
+> [!IMPORTANT]
+> Remember these lessons require [hardware](hardware-list.md) for the complete experience.
 
 * [Lesson: F Prime Communication Interface (Radios)](./lesson-communications.md)
 * [Lesson: Modeling State Machines in FPP (Sensors)](./lesson-fpp-state-machines.md)
