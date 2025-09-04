@@ -105,6 +105,31 @@ This workshop is organized as a set of lessons. Each lesson introduces an advanc
 * [Lesson: F Prime Communication Interface (Radios)](./lesson-communications.md)
 * [Lesson: Modeling State Machines in FPP (Sensors)](./lesson-fpp-state-machines.md)
 
+Got it — here’s the expanded **Further Study** section with both **How-To Guides** and **Design Patterns**:
+
+---
+
+## Further Study
+
+This workshop introduced several advanced patterns in F´, but there is much more to explore.
+
+### How-To Guides
+
+The [F´ How-To Guides](https://fprime.jpl.nasa.gov/latest/docs/how-to/) cover a wide range of topics, from modeling components to writing tests and extending the Ground Data System. These are an excellent way to continue building your skills after the workshop.
+
+### Design Patterns
+
+F´ also provides documentation on common **design patterns** that help structure components and systems in maintainable ways. While there isn’t a single landing page for these patterns, you can find them in the [F´ User Guide](https://fprime.jpl.nasa.gov/latest/docs/user-manual/). Some key patterns worth exploring are:
+
+* **Manager/Worker Pattern** – Offload long-running work to keep components responsive.
+* **Health Checking Pattern** – Monitoring critical components to ensure they remain responsive.
+* **Callback Ports** – Structuring asynchronous work across components.
+
+These patterns illustrate best practices that apply to many different F´ projects, and revisiting them after the workshop will reinforce what you’ve learned.
+
+> [!TIP]
+> The How-To and Design patten collection is **continually expanding**. Be sure to check back regularly for new guides and updated examples.
+
 ## Feedback
 
 This is the **first-light run** of the Advanced F´ Workshop, and your feedback is invaluable in helping us improve it for future participants.
