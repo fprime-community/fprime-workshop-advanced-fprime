@@ -59,6 +59,13 @@ flowchart LR
 * **Extended Commands**: Add extra commands to configure or query the XBee radio.
 * **Subtopology**: Package all your XBee components into a **subtopology** so they can be reused in other deployments.
 
+## Relevant Documentation
+
+- **[Communication Interface](https://fprime.jpl.nasa.gov/latest/docs/reference/communication-adapter-interface/)**
+- **[Framing Subtopology](https://github.com/nasa/fprime/blob/bce0b5de796280bc6baa1c9db2fc9cd40898ad1b/Svc/Subtopologies/ComCcsds/ComCcsds.fpp#L108-L119)**
+- **[Working with Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/user-manual/design-patterns/subtopologies/)**
+- **[Developing Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/how-to/develop-subtopologies/)**
+
 ## Reference Implementation
 
 The reference implementation for this lesson is under development.
@@ -67,11 +74,3 @@ When it is ready, it will be linked here:
 > [!NOTE]
 > **Reference Code Placeholder**
 > A link to the reference solution will be provided once available.
-
-## Relevant Documentation
-
-- **[Communication Interface](https://fprime.jpl.nasa.gov/latest/docs/reference/communication-adapter-interface/)**
-- **[Framing Subtopology](https://github.com/nasa/fprime/blob/bce0b5de796280bc6baa1c9db2fc9cd40898ad1b/Svc/Subtopologies/ComCcsds/ComCcsds.fpp#L108-L119)**
-- **[Working with Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/user-manual/design-patterns/subtopologies/)**
-- **[Developing Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/how-to/develop-subtopologies/)**
-
