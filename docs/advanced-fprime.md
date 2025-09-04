@@ -101,3 +101,15 @@ This workshop is organized as a set of lessons. Each lesson introduces an advanc
 
 * [Lesson: F Prime Communication Interface (Radios)](./lesson-communications.md)
 * [Lesson: Modeling State Machines in FPP (Sensors)](./lesson-fpp-state-machines.md)
+
+## Feedback
+
+This is the **first-light run** of the Advanced F´ Workshop, and your feedback is invaluable in helping us improve it for future participants.
+
+* For **issues and suggestions** (e.g., errors in the material, missing steps, improvements you’d like to see), please open an issue on the [F´ GitHub issue tracker](https://github.com/nasa/fprime/issues).
+* For **general feedback** (e.g., what worked well, what was confusing, overall experience), please share your thoughts on the [F´ GitHub Discussions page](https://github.com/nasa/fprime/discussions).
+
+Your input will help us refine the lessons, examples, and documentation—so future attendees can learn even more effectively.
+
+> [!TIP]
+> Feedback doesn’t have to be formal. Even short notes like *“this step was unclear”* or *“this activity was fun and engaging”* are incredibly useful!
