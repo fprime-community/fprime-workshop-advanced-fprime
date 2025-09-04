@@ -68,9 +68,10 @@ When it is ready, it will be linked here:
 > **Reference Code Placeholder**
 > A link to the reference solution will be provided once available.
 
-TODOs:
-1. add links to other helpful focumentation
-2. Subtopology guide
-3. Framining subtopology documentation
-4. Update ComInterface to reference the usage of the ComInterface interface
+## Relevant Documentation
+
+- **[Communication Interface](https://fprime.jpl.nasa.gov/latest/docs/reference/communication-adapter-interface/)**
+- **[Framing Subtopology](https://github.com/nasa/fprime/blob/bce0b5de796280bc6baa1c9db2fc9cd40898ad1b/Svc/Subtopologies/ComCcsds/ComCcsds.fpp#L108-L119)**
+- **[Working with Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/user-manual/design-patterns/subtopologies/)**
+- **[Developing Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/how-to/develop-subtopologies/)**
 
