@@ -30,7 +30,6 @@ This workshop is organized as a series of **hands-on exercises**, each focused o
 
 Would you like me to also include a short sentence in the note clarifying that **remote users can still complete all exercises with their own hardware**, just so it doesn’t sound limiting?
 
-
 ## Project Setup
 
 In this workshop, we will build on the **LED Blinker** project you created in the [introductory workshop](https://github.com/fprime-community/fprime-workshop-led-blinker/blob/devel/docs/led-blinker.md).
@@ -70,3 +69,9 @@ If the build completes without errors, you are ready to begin.
 >
 > This gives you a known-good starting point that matches the original tutorial.
 
+## Lessons
+
+This workshop is organized as a set of lessons. Each lesson introduces an advanced F´ pattern or concept, with exercises and optional extensions.
+
+* [Lesson: F Prime Communication Interface (Radios)](./lesson-communications.md)
+* [Lesson: Modeling State Machines in FPP (Sensors)](./lesson-fpp-state-machines.md)
