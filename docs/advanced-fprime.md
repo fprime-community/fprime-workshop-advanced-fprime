@@ -105,10 +105,6 @@ This workshop is organized as a set of lessons. Each lesson introduces an advanc
 * [Lesson: F Prime Communication Interface (Radios)](./lesson-communications.md)
 * [Lesson: Modeling State Machines in FPP (Sensors)](./lesson-fpp-state-machines.md)
 
-Got it — here’s the expanded **Further Study** section with both **How-To Guides** and **Design Patterns**:
-
----
-
 ## Further Study
 
 This workshop introduced several advanced patterns in F´, but there is much more to explore.
