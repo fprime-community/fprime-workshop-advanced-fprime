@@ -69,6 +69,15 @@ flowchart LR
 * **Unit Tests**: Write unit tests for the IMU component prompting state changes via ports and asserting behavior at a given state.
 * **Requirements**: Author requirements for the component.
 
+## Relevant Documentation
+
+- **[MPU-6050 Datasheet](https://cdn-learn.adafruit.com/downloads/pdf/mpu6050-6-axis-accelerometer-and-gyro.pdf)**
+- **[FPP State Machine How-To](TODO)**
+- **[FPP State Machines (User Guide](https://nasa.github.io/fpp/fpp-users-guide.html#Defining-State-Machines)**
+- **[FPP Component Patameters](https://nasa.github.io/fpp/fpp-users-guide.html#Defining-Components_Parameters)**
+- **[Working with Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/user-manual/design-patterns/subtopologies/)**
+- **[Developing Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/how-to/develop-subtopologies/)**
+
 ## Reference Implementation
 
 The reference implementation for this lesson is under development.
@@ -77,10 +86,3 @@ The reference implementation for this lesson is under development.
 > **Reference Code Placeholder**
 > Links to the IMU reference solution, **ImuTypes.hpp**, and **ImuHelpers.cpp** will be added here when available.
 
----
-
-## Further Reading
-
-* **FPP State Machines (User Guide):** [https://nasa.github.io/fpp/fpp-users-guide.html#Defining-State-Machines](https://nasa.github.io/fpp/fpp-users-guide.html#Defining-State-Machines)
-* **FPP State Machine How-To:** *(TBD link)*
-* **MPU-6050 Datasheet:** [https://cdn-learn.adafruit.com/downloads/pdf/mpu6050-6-axis-accelerometer-and-gyro.pdf](https://cdn-learn.adafruit.com/downloads/pdf/mpu6050-6-axis-accelerometer-and-gyro.pdf)
