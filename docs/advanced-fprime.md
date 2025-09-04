@@ -26,9 +26,35 @@ This workshop is organized as a series of **hands-on exercises**, each focused o
 > [!TIP]
 > Teams may choose to tackle multiple lessons in parallel. This can be an efficient way to explore different patterns quickly and share knowledge within your group.
 
----
+## Tips for Success
 
-Would you like me to also include a short sentence in the note clarifying that **remote users can still complete all exercises with their own hardware**, just so it doesn’t sound limiting?
+This is an **advanced workshop**, and you may find parts of it challenging—that’s by design. Here are some tips to help you get the most out of the experience:
+
+1. **Ask Questions**
+   Don’t hesitate to reach out if you get stuck. Instructors and the community are here to support you. No question is too small.
+
+2. **Team Up**
+   Software is developed by teams, not individuals. Pair up, share tasks, and learn from each other as you work through the exercises.
+
+3. **Follow the Process**
+   Treat each exercise like a real project:
+
+   * Write requirements (even simple ones)
+   * Design proper components and document them
+   * Implement carefully
+   * Test thoroughly
+
+4. **Embrace the Challenge**
+   These lessons push beyond the basics. Don’t worry if things don’t work the first time—that’s part of the learning process.
+
+5. **Iterate and Refactor**
+   Start with a minimal design, get it working, and then improve it. Iteration mirrors how F´ projects evolve in practice.
+
+6. **Keep Notes**
+   Document what you tried, what worked, and what didn’t. These notes will help you later and may be useful to your teammates.
+
+> [!TIP]
+> Many of the best insights come from mistakes. Treat every failure as feedback, not a setback.
 
 ## Project Setup
 
