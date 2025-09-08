@@ -1,12 +1,12 @@
 // ======================================================================
-// \title  WafDeploymentTopology.cpp
+// \title  AdvancedDeploymentTopology.cpp
 // \brief cpp file containing the topology instantiation code
 //
 // ======================================================================
 // Provides access to autocoded functions
-#include <WafCubesat/WafDeployment/Top/WafDeploymentTopologyAc.hpp>
+#include <AdvancedFprime/AdvancedDeployment/Top/AdvancedDeploymentTopologyAc.hpp>
 // Note: Uncomment when using Svc:TlmPacketizer
-// #include <WafCubesat/WafDeployment/Top/WafDeploymentPacketsAc.hpp>
+// #include <AdvancedFprime/AdvancedDeployment/Top/AdvancedDeploymentPacketsAc.hpp>
 
 // Necessary project-specified types
 #include <Fw/Types/MallocAllocator.hpp>
@@ -14,7 +14,7 @@
 #include <Fw/Logger/Logger.hpp>
 
 // Allows easy reference to objects in FPP/autocoder required namespaces
-using namespace WafDeployment;
+using namespace AdvancedDeployment;
 
 // Instantiate a malloc allocator for cmdSeq buffer allocation
 Fw::MallocAllocator mallocator;
@@ -58,8 +58,8 @@ void configureTopology() {
     }
 }
 
-// Public functions for use in main program are namespaced with deployment name WafDeployment
-namespace WafDeployment {
+// Public functions for use in main program are namespaced with deployment name AdvancedDeployment
+namespace AdvancedDeployment {
 void setupTopology(const TopologyState& state) {
     // Autocoded initialization. Function provided by autocoder.
     initComponents(state);
@@ -124,4 +124,4 @@ void teardownTopology(const TopologyState& state) {
 
     tearDownComponents(state);
 }
-};  // namespace WafDeployment
+};  // namespace AdvancedDeployment

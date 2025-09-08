@@ -1,10 +1,10 @@
 // ======================================================================
-// \title  WafDeploymentTopologyDefs.hpp
+// \title  AdvancedDeploymentTopologyDefs.hpp
 // \brief required header file containing the required definitions for the topology autocoder
 //
 // ======================================================================
-#ifndef WafDeployment_WafDeploymentTOPOLOGYDEFS_HPP
-#define WafDeployment_WafDeploymentTOPOLOGYDEFS_HPP
+#ifndef AdvancedDeployment_AdvancedDeploymentTOPOLOGYDEFS_HPP
+#define AdvancedDeployment_AdvancedDeploymentTOPOLOGYDEFS_HPP
 
 // Subtopology PingEntries includes
 #include "Svc/Subtopologies/CdhCore/PingEntries.hpp"
@@ -23,7 +23,7 @@
 #include "Svc/Subtopologies/ComCcsds/Ports_ComPacketQueueEnumAc.hpp"
 
 // Include autocoded FPP constants
-#include "WafCubesat/WafDeployment/Top/FppConstantsAc.hpp"
+#include "AdvancedFprime/AdvancedDeployment/Top/FppConstantsAc.hpp"
 #include "fprime-sensors/XBee/Subtopology/SubtopologyTopologyDefs.hpp"
 #include "fprime-sensors/XBee/Subtopology/XBeeConfig/FppConstantsAc.hpp"
 
@@ -47,29 +47,29 @@
  * ```
  */
 namespace PingEntries {
-namespace WafDeployment_rateGroup1 {
+namespace AdvancedDeployment_rateGroup1 {
 enum { WARN = 3, FATAL = 5 };
 }
-namespace WafDeployment_rateGroup2 {
+namespace AdvancedDeployment_rateGroup2 {
 enum { WARN = 3, FATAL = 5 };
 }
-namespace WafDeployment_rateGroup3 {
+namespace AdvancedDeployment_rateGroup3 {
 enum { WARN = 3, FATAL = 5 };
 }
-namespace WafDeployment_cmdSeq {
+namespace AdvancedDeployment_cmdSeq {
 enum { WARN = 3, FATAL = 5 };
 }
 }  // namespace PingEntries
 
-// Definitions are placed within a namespace named after the deployment
-namespace WafDeployment {
+// Definitions are placed within the same namespace the topology is placed
+namespace AdvancedDeployment {
 
 /**
  * \brief required type definition to carry state
  *
- * The topology autocoder requires an object that carries state with the name `WafDeployment::TopologyState`. Only the
- * type definition is required by the autocoder and the contents of this object are otherwise opaque to the autocoder.
- * The contents are entirely up to the definition of the project. This deployment uses subtopologies.
+ * The topology autocoder requires an object that carries state with the name `AdvancedDeployment::TopologyState`. Only
+ * the type definition is required by the autocoder and the contents of this object are otherwise opaque to the
+ * autocoder. The contents are entirely up to the definition of the project. This deployment uses subtopologies.
  */
 struct TopologyState {
     const char* hostname;                         //!< Hostname for TCP communication
@@ -82,5 +82,5 @@ struct TopologyState {
 };
 
 namespace PingEntries = ::PingEntries;
-}  // namespace WafDeployment
+}  // namespace AdvancedDeployment
 #endif

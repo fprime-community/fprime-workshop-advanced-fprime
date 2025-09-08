@@ -1,7 +1,7 @@
 #####
-# 'WafDeployment' Deployment:
+# 'AdvancedDeployment' Deployment:
 #
-# This registers the 'WafDeployment' deployment to the build system. 
+# This registers the 'AdvancedDeployment' deployment to the build system. 
 # Custom components that have not been added at the project-level should be added to 
 # the list below.
 #

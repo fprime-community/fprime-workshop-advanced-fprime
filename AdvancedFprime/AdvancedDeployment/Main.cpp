@@ -4,7 +4,7 @@
 //
 // ======================================================================
 // Used to access topology functions
-#include <WafCubesat/WafDeployment/Top/WafDeploymentTopology.hpp>
+#include <AdvancedFprime/AdvancedDeployment/Top/AdvancedDeploymentTopology.hpp>
 // OSAL initialization
 #include <Os/Os.hpp>
 // Used for signal handling shutdown
@@ -34,7 +34,7 @@ void print_usage(const char* app) {
  * @param signum
  */
 static void signalHandler(int signum) {
-    WafDeployment::stopRateGroups();
+    AdvancedDeployment::stopRateGroups();
 }
 
 /**
@@ -76,7 +76,7 @@ int main(int argc, char* argv[]) {
         }
     }
     // Object for communicating state to the topology
-    WafDeployment::TopologyState state;
+    AdvancedDeployment::TopologyState state;
     state.hostname = hostname;
     state.port = port_number;
     state.xbee.device = hostname;   // Re-using input value to configure XBee as needed
@@ -88,9 +88,9 @@ int main(int argc, char* argv[]) {
     (void)printf("Hit Ctrl-C to quit\n");
 
     // Setup, cycle, and teardown topology
-    WafDeployment::setupTopology(state);
-    WafDeployment::startRateGroups(Fw::TimeInterval(1, 0));  // Program loop cycling rate groups at 1Hz
-    WafDeployment::teardownTopology(state);
+    AdvancedDeployment::setupTopology(state);
+    AdvancedDeployment::startRateGroups(Fw::TimeInterval(1, 0));  // Program loop cycling rate groups at 1Hz
+    AdvancedDeployment::teardownTopology(state);
     (void)printf("Exiting...\n");
     return 0;
 }

@@ -1,6 +1,6 @@
 ## XBee setup for Advanced Tutorial
 
-This walks through how to set-up 2 XBee modules to communicate with each other. One XBee will be connected to the GDS machine, and the other will be connected to the WafDeployment application on Raspberry Pi.
+This walks through how to set-up 2 XBee modules to communicate with each other. One XBee will be connected to the GDS machine, and the other will be connected to the AdvancedDeployment application on Raspberry Pi.
 
 1. Install XTCU https://www.digi.com/products/embedded-systems/digi-xbee/digi-xbee-tools/xctu
 2. Connect the first XBee to your computer using a USB-C adapter

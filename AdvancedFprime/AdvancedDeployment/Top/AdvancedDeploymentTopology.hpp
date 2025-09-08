@@ -1,17 +1,17 @@
 // ======================================================================
-// \title  WafDeploymentTopology.hpp
+// \title  AdvancedDeploymentTopology.hpp
 // \brief header file containing the topology instantiation definitions
 //
 // ======================================================================
-#ifndef WafDeployment_WafDeploymentTOPOLOGY_HPP
-#define WafDeployment_WafDeploymentTOPOLOGY_HPP
-// Included for access to WafDeployment::TopologyState and WafDeployment::ConfigObjects::pingEntries. These definitions
-// are required by the autocoder, but are also used in this hand-coded topology.
-#include <WafCubesat/WafDeployment/Top/WafDeploymentTopologyDefs.hpp>
+#ifndef AdvancedDeployment_AdvancedDeploymentTOPOLOGY_HPP
+#define AdvancedDeployment_AdvancedDeploymentTOPOLOGY_HPP
+// Included for access to AdvancedDeployment::TopologyState and AdvancedDeployment::ConfigObjects::pingEntries. These
+// definitions are required by the autocoder, but are also used in this hand-coded topology.
+#include <AdvancedFprime/AdvancedDeployment/Top/AdvancedDeploymentTopologyDefs.hpp>
 
-// Remove unnecessary WafDeployment:: qualifications
-using namespace WafDeployment;
-namespace WafDeployment {
+// Remove unnecessary AdvancedDeployment:: qualifications
+using namespace AdvancedDeployment;
+namespace AdvancedDeployment {
 /**
  * \brief initialize and run the F´ topology
  *
@@ -32,7 +32,7 @@ namespace WafDeployment {
  * custom tasks often start radio communication it is convenient to start them last.
  *
  * The state argument carries command line inputs used to setup the topology. For an explanation of the required type
- * WafDeployment::TopologyState see: WafDeploymentTopologyDefs.hpp.
+ * AdvancedDeployment::TopologyState see: AdvancedDeploymentTopologyDefs.hpp.
  *
  * \param state: object shuttling CLI arguments (e.g. hostname/port, or UART baudrate) needed to construct the topology
  */
@@ -53,7 +53,7 @@ void setupTopology(const TopologyState& state);
  * Step 1, 2, 3, and 4 must occur in-order as the tasks must be stopped before being joined. These tasks must be stopped
  * and joined before any active resources may be deallocated.
  *
- * For an explanation of the required type WafDeployment::TopologyState see: WafDeploymentTopologyDefs.hpp.
+ * For an explanation of the required type AdvancedDeployment::TopologyState see: AdvancedDeploymentTopologyDefs.hpp.
  *
  * \param state: state object provided to setupTopology
  */
@@ -80,5 +80,5 @@ void startRateGroups(const Fw::TimeInterval& interval = Fw::TimeInterval(1, 0));
  */
 void stopRateGroups();
 
-}  // namespace WafDeployment
+}  // namespace AdvancedDeployment
 #endif

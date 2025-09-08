@@ -1,4 +1,4 @@
-module WafDeployment {
+module AdvancedDeployment {
 
   # ----------------------------------------------------------------------
   # Base ID Convention

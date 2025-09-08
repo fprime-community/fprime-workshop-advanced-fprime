@@ -1,4 +1,4 @@
-module WafDeployment {
+module AdvancedDeployment {
 
   # ----------------------------------------------------------------------
   # Symbolic constants for port numbers
@@ -10,7 +10,7 @@ module WafDeployment {
     rateGroup3
   }
 
-  topology WafDeployment {
+  topology AdvancedDeployment {
 
   # ----------------------------------------------------------------------
   # Subtopology imports
@@ -51,7 +51,7 @@ module WafDeployment {
   # Telemetry packets (only used when TlmPacketizer is used)
   # ----------------------------------------------------------------------
 
-    # include "WafDeploymentPackets.fppi"
+    # include "AdvancedDeploymentPackets.fppi"
 
   # ----------------------------------------------------------------------
   # Direct graph specifiers
@@ -124,7 +124,7 @@ module WafDeployment {
     }
 
     # Named connection group
-    connections WafDeployment {
+    connections AdvancedDeployment {
       # Rate Group 1 (1Hz cycle) ouput is connected to led's run input
       rateGroup1.RateGroupMemberOut[4] -> led.run
       # led's gpioSet output is connected to gpioDriver's gpioWrite input

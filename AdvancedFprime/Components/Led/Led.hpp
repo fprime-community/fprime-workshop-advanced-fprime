@@ -7,7 +7,7 @@
 #ifndef Components_Led_HPP
 #define Components_Led_HPP
 
-#include "WafCubesat/Components/Led/LedComponentAc.hpp"
+#include "AdvancedFprime/Components/Led/LedComponentAc.hpp"
 
 namespace Components {
 

@@ -1,4 +1,4 @@
-telemetry packets WafDeploymentPackets {
+telemetry packets AdvancedDeploymentPackets {
 
   packet CDH id 1 group 1 {
     CdhCore.cmdDisp.CommandsDispatched
@@ -9,10 +9,10 @@ telemetry packets WafDeploymentPackets {
     FileHandling.fileDownlink.PacketsSent
     FileHandling.fileManager.CommandsExecuted
 
-    WafDeployment.cmdSeq.CS_LoadCommands
-    WafDeployment.cmdSeq.CS_CancelCommands
-    WafDeployment.cmdSeq.CS_CommandsExecuted
-    WafDeployment.cmdSeq.CS_SequencesCompleted
+    AdvancedDeployment.cmdSeq.CS_LoadCommands
+    AdvancedDeployment.cmdSeq.CS_CancelCommands
+    AdvancedDeployment.cmdSeq.CS_CommandsExecuted
+    AdvancedDeployment.cmdSeq.CS_SequencesCompleted
     ComCcsds.comQueue.comQueueDepth
     ComCcsds.comQueue.buffQueueDepth
     ComCcsds.commsBufferManager.TotalBuffs
@@ -21,12 +21,12 @@ telemetry packets WafDeploymentPackets {
     #ComCcsds.tlmSend.SendLevel
 
     # LED Blinker telemetry channels
-    WafDeployment.led.BlinkingState
-    WafDeployment.led.LedTransitions
+    AdvancedDeployment.led.BlinkingState
+    AdvancedDeployment.led.LedTransitions
 
-    WafDeployment.rateGroup1.RgMaxTime
-    WafDeployment.rateGroup2.RgMaxTime
-    WafDeployment.rateGroup3.RgMaxTime
+    AdvancedDeployment.rateGroup1.RgMaxTime
+    AdvancedDeployment.rateGroup2.RgMaxTime
+    AdvancedDeployment.rateGroup3.RgMaxTime
   }
 
   packet CDHErrors id 2 group 1 {
@@ -36,40 +36,40 @@ telemetry packets WafDeploymentPackets {
     FileHandling.fileDownlink.Warnings
     FileHandling.fileManager.Errors
 
-    WafDeployment.cmdSeq.CS_Errors
+    AdvancedDeployment.cmdSeq.CS_Errors
     ComCcsds.commsBufferManager.NoBuffs
     ComCcsds.commsBufferManager.EmptyBuffs
 
-    WafDeployment.rateGroup1.RgCycleSlips
-    WafDeployment.rateGroup2.RgCycleSlips
-    WafDeployment.rateGroup3.RgCycleSlips
+    AdvancedDeployment.rateGroup1.RgCycleSlips
+    AdvancedDeployment.rateGroup2.RgCycleSlips
+    AdvancedDeployment.rateGroup3.RgCycleSlips
   }
 
   packet SystemRes1 id 5 group 2 {
-    WafDeployment.systemResources.MEMORY_TOTAL
-    WafDeployment.systemResources.MEMORY_USED
-    WafDeployment.systemResources.NON_VOLATILE_TOTAL
-    WafDeployment.systemResources.NON_VOLATILE_FREE
+    AdvancedDeployment.systemResources.MEMORY_TOTAL
+    AdvancedDeployment.systemResources.MEMORY_USED
+    AdvancedDeployment.systemResources.NON_VOLATILE_TOTAL
+    AdvancedDeployment.systemResources.NON_VOLATILE_FREE
   }
 
   packet SystemRes3 id 6 group 2 {
-    WafDeployment.systemResources.CPU
-    WafDeployment.systemResources.CPU_00
-    WafDeployment.systemResources.CPU_01
-    WafDeployment.systemResources.CPU_02
-    WafDeployment.systemResources.CPU_03
-    WafDeployment.systemResources.CPU_04
-    WafDeployment.systemResources.CPU_05
-    WafDeployment.systemResources.CPU_06
-    WafDeployment.systemResources.CPU_07
-    WafDeployment.systemResources.CPU_08
-    WafDeployment.systemResources.CPU_09
-    WafDeployment.systemResources.CPU_10
-    WafDeployment.systemResources.CPU_11
-    WafDeployment.systemResources.CPU_12
-    WafDeployment.systemResources.CPU_13
-    WafDeployment.systemResources.CPU_14
-    WafDeployment.systemResources.CPU_15
+    AdvancedDeployment.systemResources.CPU
+    AdvancedDeployment.systemResources.CPU_00
+    AdvancedDeployment.systemResources.CPU_01
+    AdvancedDeployment.systemResources.CPU_02
+    AdvancedDeployment.systemResources.CPU_03
+    AdvancedDeployment.systemResources.CPU_04
+    AdvancedDeployment.systemResources.CPU_05
+    AdvancedDeployment.systemResources.CPU_06
+    AdvancedDeployment.systemResources.CPU_07
+    AdvancedDeployment.systemResources.CPU_08
+    AdvancedDeployment.systemResources.CPU_09
+    AdvancedDeployment.systemResources.CPU_10
+    AdvancedDeployment.systemResources.CPU_11
+    AdvancedDeployment.systemResources.CPU_12
+    AdvancedDeployment.systemResources.CPU_13
+    AdvancedDeployment.systemResources.CPU_14
+    AdvancedDeployment.systemResources.CPU_15
   }
 
   packet DataProducts id 21 group 3 {
