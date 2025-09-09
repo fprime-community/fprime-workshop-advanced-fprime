@@ -34,7 +34,7 @@ Here's a step-by-step guide. The values are shown as examples, but you can choos
 
 ### Example setup
 
-Here's a table of how to set up 5 pairs of XBees. PAN ID *must* match for a pair and differ between pairs. Using different CH (channel) values helps avoid interference if multiple pairs are used in the same area (dictates frequency channel).
+Here's a table of how to set up 5 pairs of XBees to work in the F´ workshop "classroom" setup. PAN ID *must* match for a pair and differ between pairs. Using different CH (channel) values helps avoid interference if multiple pairs are used in the same area (dictates frequency channel).
 
 | Pair # | PAN ID   | Channel (CH) | A: MY | A: DL | B: MY | B: DL | DH (shared) | Baud Rate (shared) |
 |--------|----------|--------------|-------|-------|-------|-------|-------------|--------------------|
