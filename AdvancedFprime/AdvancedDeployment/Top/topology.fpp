@@ -107,7 +107,8 @@ module AdvancedDeployment {
       rateGroup1.RateGroupMemberOut[2] -> systemResources.run
       rateGroup1.RateGroupMemberOut[3] -> ComCcsds.comQueue.run
       # [4] is connected to our led component already (see AdvancedDeployment connections)
-      rateGroup1.RateGroupMemberOut[5] -> MpuImu.imuManager.run
+      rateGroup1.RateGroupMemberOut[5] -> XBee.comMgr.run
+      rateGroup1.RateGroupMemberOut[6] -> MpuImu.imuManager.run
 
       # Rate group 2
       rateGroupDriver.CycleOut[Ports_RateGroups.rateGroup2] -> rateGroup2.CycleIn
