@@ -79,8 +79,9 @@ int main(int argc, char* argv[]) {
     AdvancedDeployment::TopologyState state;
     state.hostname = hostname;
     state.port = port_number;
-    state.xbee.device = hostname;   // Re-using input value to configure XBee as needed
-    state.xbee.baud = port_number;  // Re-using input value to configure XBee as needed
+    state.xbee.device = hostname;     // Re-using input value to configure XBee device as needed
+    state.xbee.baud = port_number;    // Re-using input value to configure XBee device as needed
+    state.mpu.device = "/dev/i2c-1";  // Default I2C device on Raspberry Pi - may need configuration
 
     // Setup program shutdown via Ctrl-C
     signal(SIGINT, signalHandler);

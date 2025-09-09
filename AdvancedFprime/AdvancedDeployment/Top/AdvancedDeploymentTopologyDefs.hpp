@@ -24,6 +24,9 @@
 
 // Include autocoded FPP constants
 #include "AdvancedFprime/AdvancedDeployment/Top/FppConstantsAc.hpp"
+
+// Include fprime-sensors subtopologies
+#include "fprime-sensors/MpuImu/Subtopology/SubtopologyTopologyDefs.hpp"
 #include "fprime-sensors/XBee/Subtopology/SubtopologyTopologyDefs.hpp"
 #include "fprime-sensors/XBee/Subtopology/XBeeConfig/FppConstantsAc.hpp"
 
@@ -78,6 +81,7 @@ struct TopologyState {
     ComCcsds::SubtopologyState comCcsds;          //!< Subtopology state for ComCcsds
     DataProducts::SubtopologyState dataProducts;  //!< Subtopology state for DataProducts
     FileHandling::SubtopologyState fileHandling;  //!< Subtopology state for FileHandling
+    MpuImu::SubtopologyState mpu;                 //!< Subtopology state for MpuImu
     XBee::SubtopologyState xbee;                  //!< Subtopology state for XBee
 };
 
