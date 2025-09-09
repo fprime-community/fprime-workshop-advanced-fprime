@@ -74,7 +74,7 @@ flowchart LR
 - **[MPU-6050 Datasheet](https://cdn-learn.adafruit.com/downloads/pdf/mpu6050-6-axis-accelerometer-and-gyro.pdf)**
 - **[FPP State Machine How-To](TODO)**
 - **[FPP State Machines (User Guide](https://nasa.github.io/fpp/fpp-users-guide.html#Defining-State-Machines)**
-- **[FPP Component Patameters](https://nasa.github.io/fpp/fpp-users-guide.html#Defining-Components_Parameters)**
+- **[FPP Component Parameters](https://nasa.github.io/fpp/fpp-users-guide.html#Defining-Components_Parameters)**
 - **[Working with Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/user-manual/design-patterns/subtopologies/)**
 - **[Developing Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/how-to/develop-subtopologies/)**
 
