@@ -1,10 +1,10 @@
 ####
-# This sets up the build system for the 'WafCubesat' project, including
+# This sets up the build system for the 'AdvancedFprime' project, including
 # components and deployments from project.cmake. In addition, it imports the core F Prime components.
 ####
 
 cmake_minimum_required(VERSION 3.24.2)
-project(WafCubesat C CXX)
+project(AdvancedFprime C CXX)
 
 ###
 # F' Core Setup
