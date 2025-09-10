@@ -71,31 +71,12 @@ void setupTopology(const TopologyState& state) {
     regCommands();
     // Autocoded configuration. Function provided by autocoder.
     configComponents(state);
-    // if (state.hostname != nullptr && state.port != 0) {
-    //     comDriver.configure(state.hostname, state.port);
-    // }
-    // if (state.hostname != nullptr && state.port != 0) {
-    //     // Uplink is configured for receive so a socket task is started
-    //     if (XBee::comDriver.open(state.hostname, static_cast<Drv::LinuxUartDriver::UartBaudRate>(state.port),
-    //                              Drv::LinuxUartDriver::NO_FLOW, Drv::LinuxUartDriver::PARITY_NONE, 1024)) {
-    //         XBee::comDriver.start(100, Default::STACK_SIZE);
-    //         printf("Opened UART device %s at speed %" PRIu32 "\n", state.hostname, state.port);
-    //     } else {
-    //         printf("Failed to open UART device %s at speed %" PRIu32 "\n", state.hostname, state.port);
-    //     }
-    // }
     // Project-specific component configuration. Function provided above. May be inlined, if desired.
     configureTopology();
     // Autocoded parameter loading. Function provided by autocoder.
     loadParameters();
     // Autocoded task kick-off (active components). Function provided by autocoder.
     startTasks(state);
-    // Initialize socket communication if and only if there is a valid specification
-    // if (state.hostname != nullptr && state.port != 0) {
-    //     Os::TaskString name("ReceiveTask");
-    //     // Uplink is configured for receive so a socket task is started
-    //     comDriver.start(name, COMM_PRIORITY, Default::STACK_SIZE);
-    // }
 }
 
 void startRateGroups(const Fw::TimeInterval& interval) {
@@ -114,10 +95,6 @@ void teardownTopology(const TopologyState& state) {
     // Autocoded (active component) task clean-up. Functions provided by topology autocoder.
     stopTasks(state);
     freeThreads(state);
-
-    // // Other task clean-up.
-    // XBee::comDriver.quitReadThread();
-    // (void)XBee::comDriver.join();
 
     // Resource deallocation
     cmdSeq.deallocateBuffer(mallocator);

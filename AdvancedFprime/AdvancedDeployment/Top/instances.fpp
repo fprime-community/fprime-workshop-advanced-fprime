@@ -51,19 +51,6 @@ module AdvancedDeployment {
     stack size Default.STACK_SIZE \
     priority 95
 
-  # # XBee Radio Integration
-  # instance comMgr: XBee.XBeeManager base id 0x10006000 \
-  #     queue size Default.QUEUE_SIZE \
-  #     stack size Default.STACK_SIZE \
-  #     priority 140
-
-  # instance comDriver: Drv.LinuxUartDriver base id 0x10016000
-
-  # ComStub (TCP)
-  # instance comMgr: Svc.ComStub base id 0x10006000
-  # instance comDriver: Drv.TcpServer base id 0x10014000
-
-
   # ----------------------------------------------------------------------
   # Queued component instances
   # ----------------------------------------------------------------------
