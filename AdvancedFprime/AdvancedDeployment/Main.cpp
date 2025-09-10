@@ -22,7 +22,7 @@
  * @param app: name of application
  */
 void print_usage(const char* app) {
-    (void)printf("Usage: ./%s [options]\n-a\thostname/IP address\n-p\tport_number\n", app);
+    (void)printf("Usage: ./%s [options]\n-d\tUART device file descriptor\n-b\tBaud rate\n", app);
 }
 
 /**
@@ -49,21 +49,21 @@ static void signalHandler(int signum) {
  */
 int main(int argc, char* argv[]) {
     I32 option = 0;
-    CHAR* hostname = nullptr;
-    U32 port_number = 0;
+    CHAR* device = nullptr;
+    U32 baud_rate = 0;
 
     Os::init();
 
     // Loop while reading the getopt supplied options
-    while ((option = getopt(argc, argv, "hp:a:")) != -1) {
+    while ((option = getopt(argc, argv, "hb:d:")) != -1) {
         switch (option) {
-            // Handle the -a argument for address/hostname
-            case 'a':
-                hostname = optarg;
+            // Handle the -d argument for UART device file descriptor
+            case 'd':
+                device = optarg;
                 break;
-            // Handle the -p port number argument
-            case 'p':
-                port_number = static_cast<U32>(atoi(optarg));
+            // Handle the -b baud rate argument
+            case 'b':
+                baud_rate = static_cast<U32>(atoi(optarg));
                 break;
             // Cascade intended: help output
             case 'h':
@@ -77,10 +77,8 @@ int main(int argc, char* argv[]) {
     }
     // Object for communicating state to the topology
     AdvancedDeployment::TopologyState state;
-    state.hostname = hostname;
-    state.port = port_number;
-    state.xbee.device = hostname;     // Re-using input value to configure XBee device as needed
-    state.xbee.baud = port_number;    // Re-using input value to configure XBee device as needed
+    state.xbee.device = device;
+    state.xbee.baud = baud_rate;
     state.mpu.device = "/dev/i2c-1";  // Default I2C device on Raspberry Pi - may need configuration
 
     // Setup program shutdown via Ctrl-C
