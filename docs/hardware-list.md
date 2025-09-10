@@ -13,7 +13,7 @@ If you are following the **Advanced F´ Workshop** remotely, you’ll need to su
   The class uses the [Adafruit MPU-6050](https://www.adafruit.com/product/3886) breakout.
 
 * **XBee 3 Radio Module**
-  Must be configured with **firmware for point-to-point mode** before use.
+  Must be configured with **firmware for point-to-point mode** before use. Refer to the [XBee Radio Setup](docs/xbee-radio-setup.md) guide for configuration instructions.
   XBee 3 is available through [Digi-Key](https://www.digikey.com/en/products/detail/digi/XB3-24Z8PT/8130937) and other vendors.
 
 > [!IMPORTANT]

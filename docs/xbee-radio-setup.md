@@ -1,5 +1,8 @@
 ## XBee setup for Advanced Tutorial
 
+>[!IMPORTANT]
+> For in-person workshops, XBee modules will be provided and pre-configured. In which case, you may skip this document. It is provided as a reference.
+
 This walks through how to set-up 2 XBee modules to communicate with each other. One XBee will be connected to the GDS machine, and the other will be connected to the AdvancedDeployment application on Raspberry Pi.
 
 The goal is to set them up so they have the same PAN ID and CH ID, and the MY (source address) of one matches the DH+DL (destination address) of the other, and vice versa.
