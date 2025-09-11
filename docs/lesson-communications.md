@@ -68,9 +68,4 @@ flowchart LR
 
 ## Reference Implementation
 
-The reference implementation for this lesson is under development.
-When it is ready, it will be linked here:
-
-> [!NOTE]
-> **Reference Code Placeholder**
-> A link to the reference solution will be provided once available.
+The reference implementation for this lesson is available here: https://github.com/fprime-community/fprime-sensors/tree/devel/fprime-sensors/XBee

@@ -72,7 +72,7 @@ flowchart LR
 ## Relevant Documentation
 
 - **[MPU-6050 Datasheet](https://cdn-learn.adafruit.com/downloads/pdf/mpu6050-6-axis-accelerometer-and-gyro.pdf)**
-- **[FPP State Machine How-To](TODO)**
+- **[FPP State Machine How-To](https://fprime.jpl.nasa.gov/devel/docs/how-to/define-state-machines/)**
 - **[FPP State Machines (User Guide](https://nasa.github.io/fpp/fpp-users-guide.html#Defining-State-Machines)**
 - **[FPP Component Parameters](https://nasa.github.io/fpp/fpp-users-guide.html#Defining-Components_Parameters)**
 - **[Working with Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/user-manual/design-patterns/subtopologies/)**
@@ -80,9 +80,5 @@ flowchart LR
 
 ## Reference Implementation
 
-The reference implementation for this lesson is under development.
-
-> [!NOTE]
-> **Reference Code Placeholder**
-> Links to the IMU reference solution, **ImuTypes.hpp**, and **ImuHelpers.cpp** will be added here when available.
-
+The reference implementation for this lesson is available here: 
+https://github.com/fprime-community/fprime-sensors/tree/devel/fprime-sensors/MpuImu
