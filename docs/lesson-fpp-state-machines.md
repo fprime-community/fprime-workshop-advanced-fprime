@@ -47,8 +47,8 @@ The basic device flow is:
 * F´ supplies an **I²C driver** you can reuse instead of writing one from scratch.
 * We provide **helper functions** for common device protocol operations (for those who want them). See:
 
-  * **ImuTypes.hpp** (TBD link)
-  * **ImuHelpers.cpp** (TBD link)
+  * [**ImuTypes.hpp**](https://github.com/fprime-community/fprime-sensors/blob/devel/fprime-sensors/MpuImu/Components/ImuManager/ImuTypes.hpp)
+  * [**ImuHelpers.cpp**](https://github.com/fprime-community/fprime-sensors/blob/devel/fprime-sensors/MpuImu/Components/ImuManager/ImuHelpers.cpp)
 
 > [!CAUTION]
 > Using these helper functions will remove most of the need to understand the full datasheet.  However, you will still need to write function prototypes and call these functions appropriately.
