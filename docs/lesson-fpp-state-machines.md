@@ -71,7 +71,7 @@ flowchart LR
 
 ## Relevant Documentation
 
-- **[MPU-6050 Datasheet](https://cdn-learn.adafruit.com/downloads/pdf/mpu6050-6-axis-accelerometer-and-gyro.pdf)**
+- **[MPU-6050 Primer](./imu-primer.md)**
 - **[FPP State Machine How-To](https://fprime.jpl.nasa.gov/devel/docs/how-to/define-state-machines/)**
 - **[FPP State Machines (User Guide](https://nasa.github.io/fpp/fpp-users-guide.html#Defining-State-Machines)**
 - **[FPP Component Parameters](https://nasa.github.io/fpp/fpp-users-guide.html#Defining-Components_Parameters)**
