@@ -104,6 +104,7 @@ This workshop is organized as a set of lessons. Each lesson introduces an advanc
 
 * [Lesson: F Prime Communication Interface (Radios)](./lesson-communications.md)
 * [Lesson: Modeling State Machines in FPP (Sensors)](./lesson-fpp-state-machines.md)
+* [Lesson: Running on small platforms](./lesson-running-on-small-platforms.md)
 
 ## Further Study
 
