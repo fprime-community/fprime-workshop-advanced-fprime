@@ -23,17 +23,17 @@ By completing this lesson, you will learn how to:
 
 ## Exercise
 
-Given this [BMP 280](https://github.com/fprime-community/fprime-sensors/tree/devel/fprime-sensors/Bmp280/Components/BmpManager) component, you should construct a deployment an "Application Layer" component that queries data from the BMP component and packages that data as data product(s).
+Given this [BMP 280](https://github.com/fprime-community/fprime-sensors/tree/devel/fprime-sensors/Bmp280/Components/BmpManager) component, you should construct an "Application Layer" component that queries data from the BMP component and packages that data as data product(s).
 
 1. Include the [F Prime Sensors](https://github.com/fprime-community/fprime-sensors) library!
-2. Build a component to read BMP 280 data
-  1. Allocate a container
-  2. Package data as a record
-  3. Serialize record
-  4. Send out container
-  5. Repeat
-3. Instantiate components and subtopologies.  Wire together
-4. Downlink component
+2. Build a component to read BMP 280 data:
+    1. Allocate a container
+    2. Package data as a record
+    3. Serialize record
+    4. Send out container
+    5. Repeat
+3. Instantiate the component and the relevant subtopologies.  Wire together
+4. Downlink the data products
 5. Decode and process on ground!
 
 
@@ -61,5 +61,6 @@ If you have additional time, consider extending your solution to:
 ## References
 
 - [How-To: Generate Data Products](https://fprime.jpl.nasa.gov/docs/latest/how-to/data-products)
+- [User Guide: Data Products](https://fprime.jpl.nasa.gov/latest/docs/user-manual/framework/data-products/)
 - [DataProducts Producer Example](https://github.com/nasa/fprime-examples/tree/devel/DataProducts/Producer)
 - [FPP User’s Guide](https://nasa.github.io/fpp/fpp-users-guide.html)
