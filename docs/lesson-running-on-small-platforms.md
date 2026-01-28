@@ -2,7 +2,7 @@
 
 In this exercise, you'll cross-compile your F´ deployment to run on a **Raspberry Pi Pico 2** with **Zephyr RTOS**. This involves learning how to configure F´ for embedded platforms, diagnose and debug issues on target hardware, and work with Zephyr RTOS.
 
-The goal is to take your existing deployment and get it running on constrained hardware, understanding the toolchain and configuration steps required for embedded targets.
+The goal is to create an F´ deployment and get it running on constrained hardware, which includes understanding the integration and configuration steps required for embedded targets, and optimizing the deployment and configuration to fit the constraints of the target hardware.
 
 ---
 
