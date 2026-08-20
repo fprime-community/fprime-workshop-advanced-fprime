@@ -7,8 +7,8 @@
 #ifndef Components_LedTester_HPP
 #define Components_LedTester_HPP
 
-#include "Components/Led/Led.hpp"
-#include "Components/Led/LedGTestBase.hpp"
+#include "AdvancedFprime/Components/Led/Led.hpp"
+#include "AdvancedFprime/Components/Led/LedGTestBase.hpp"
 
 namespace Components {
 
