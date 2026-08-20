@@ -10,7 +10,7 @@ module AdvancedDeployment {
     rateGroup3
   }
 
-  topology AdvancedDeployment {
+  deployment topology AdvancedDeployment {
 
   # ----------------------------------------------------------------------
   # Subtopology imports
