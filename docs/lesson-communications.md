@@ -64,7 +64,7 @@ flowchart LR
 - **[Communication Interface](https://fprime.jpl.nasa.gov/latest/docs/reference/communication-adapter-interface/)**
 - **[Framing Subtopology](https://github.com/nasa/fprime/blob/bce0b5de796280bc6baa1c9db2fc9cd40898ad1b/Svc/Subtopologies/ComCcsds/ComCcsds.fpp#L108-L119)**
 - **[Working with Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/user-manual/design-patterns/subtopologies/)**
-- **[Developing Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/how-to/develop-subtopologies/)**
+- **[Developing Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/how-to/develop/develop-subtopologies/)**
 
 ## Reference Implementation
 

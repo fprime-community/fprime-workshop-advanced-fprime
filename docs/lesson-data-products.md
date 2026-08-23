@@ -60,7 +60,7 @@ If you have additional time, consider extending your solution to:
 
 ## References
 
-- [How-To: Generate Data Products](https://fprime.jpl.nasa.gov/devel/docs/how-to/data-products)
+- [How-To: Generate Data Products](https://fprime.jpl.nasa.gov/devel/docs/how-to/develop/data-products/)
 - [User Guide: Data Products](https://fprime.jpl.nasa.gov/latest/docs/user-manual/framework/data-products/)
 - [DataProducts Producer Example](https://github.com/nasa/fprime-examples/tree/devel/FlightExamples/DataProduct/Producer)
 - [FPP User’s Guide](https://nasa.github.io/fpp/fpp-users-guide.html)

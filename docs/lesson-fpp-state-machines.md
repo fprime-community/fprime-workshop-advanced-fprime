@@ -72,11 +72,11 @@ flowchart LR
 ## Relevant Documentation
 
 - **[MPU-6050 Primer](./imu-primer.md)**
-- **[FPP State Machine How-To](https://fprime.jpl.nasa.gov/devel/docs/how-to/define-state-machines/)**
+- **[FPP State Machine How-To](https://fprime.jpl.nasa.gov/devel/docs/how-to/develop/define-state-machines/)**
 - **[FPP State Machines (User Guide](https://nasa.github.io/fpp/fpp-users-guide.html#Defining-State-Machines)**
 - **[FPP Component Parameters](https://nasa.github.io/fpp/fpp-users-guide.html#Defining-Components_Parameters)**
 - **[Working with Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/user-manual/design-patterns/subtopologies/)**
-- **[Developing Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/how-to/develop-subtopologies/)**
+- **[Developing Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/how-to/develop/develop-subtopologies/)**
 
 ## Reference Implementation
 
