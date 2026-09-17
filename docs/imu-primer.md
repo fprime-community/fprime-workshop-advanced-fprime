@@ -56,5 +56,5 @@ A typical MPU-6050 startup and configuration sequence is as follows:
 
 ## References
 
-* [MPU-6000/6050 Register Map](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)
-* [MPU-6000/6050 Product Datasheet](http://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf)
+* [MPU-6000/6050 Register Map](https://cdn.sparkfun.com/datasheets/Sensors/Accelerometers/RM-MPU-6000A.pdf)
+* [MPU-6000/6050 Product Datasheet](https://cdn.sparkfun.com/datasheets/Components/General%20IC/PS-MPU-6000A.pdf)

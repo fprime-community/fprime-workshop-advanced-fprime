@@ -1,6 +1,6 @@
 # Lesson: F Prime Communication Integration
 
-In this exercise, you will integrate an **XBee 3 radio** into your F´ deployment. The goal is to implement a component (or set of components) that adapt the XBee radio for use with F´’s **[Communication Interface](https://fprime.jpl.nasa.gov/latest/docs/reference/communication-adapter-interface/))**.
+In this exercise, you will integrate an **XBee 3 radio** into your F´ deployment. The goal is to implement a component (or set of components) that adapt the XBee radio for use with F´’s **[Communication Interface](https://fprime.jpl.nasa.gov/latest/docs/reference/communication-adapter-interface/)**.
 
 The XBee radio provides a UART interface: data written to its UART port is transmitted over the radio, and data received over the radio is made available through UART.
 
@@ -63,8 +63,8 @@ flowchart LR
 
 - **[Communication Interface](https://fprime.jpl.nasa.gov/latest/docs/reference/communication-adapter-interface/)**
 - **[Framing Subtopology](https://github.com/nasa/fprime/blob/bce0b5de796280bc6baa1c9db2fc9cd40898ad1b/Svc/Subtopologies/ComCcsds/ComCcsds.fpp#L108-L119)**
-- **[Working with Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/user-manual/design-patterns/subtopologies/)**
-- **[Developing Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/how-to/develop-subtopologies/)**
+- **[Working with Subtopologies](https://fprime.jpl.nasa.gov/latest/docs/user-manual/design-patterns/subtopologies/)**
+- **[Developing Subtopologies](https://fprime.jpl.nasa.gov/latest/docs/how-to/develop/develop-subtopologies/)**
 
 ## Reference Implementation
 

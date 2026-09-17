@@ -79,7 +79,7 @@ fprime-util build zephyr
 
 - **[F´ Zephyr Support Package](https://github.com/fprime-community/fprime-zephyr)**
 - **[F´ Docs: Configuring F Prime](https://fprime.jpl.nasa.gov/latest/docs/user-manual/framework/configuring-fprime/)**
-- **[F´ Docs: Working with (and configuring) Subtopologies](https://fprime.jpl.nasa.gov/devel/docs/user-manual/design-patterns/subtopologies/)**
+- **[F´ Docs: Working with (and configuring) Subtopologies](https://fprime.jpl.nasa.gov/latest/docs/user-manual/design-patterns/subtopologies/)**
 - **[Zephyr RTOS Documentation](https://docs.zephyrproject.org/)**
 
 ## Optional Goals
